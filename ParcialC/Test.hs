@@ -1,5 +1,5 @@
 import Test.HUnit
-import ParcialC
+import Solucion
 -- Ejercicio 1: aproboMasDeNMaterias
 testAproboMasDeNMaterias = test [
     "Aprobó más de N materias (caso verdadero)" ~: 

@@ -1,4 +1,4 @@
-module ParcialA where
+module Solucion where
 type Formulas = [(String, String)]
 type Votos = [Integer]
 type CantVotos = Integer

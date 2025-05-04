@@ -1,4 +1,4 @@
-module  ParcialB where  
+module  Solucion where  
 type Relaciones = [(String,String)]
 type Persona = String
 

@@ -1,5 +1,5 @@
 import Test.HUnit
-import ParcialB
+import Solucion
 -- Test para relacionesValidas
 testsRelacionesValidas = test [
   "Relaciones válidas básicas" ~: relacionesValidas [("Ana","Carlos"),("Juan","María")] ~?= True,

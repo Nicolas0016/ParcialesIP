@@ -1,4 +1,4 @@
-module ParcialC where
+module Solucion where
 type Alumno = String
 type Notas = [Integer]
 type Registros = [(Alumno, Notas)]

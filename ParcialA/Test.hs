@@ -1,5 +1,5 @@
 import Test.HUnit
-import ParcialA
+import Solucion
 
 -- Test Ejercicio 1: porcentajeDeVotosAfirmativos
 testsEj1 = test [
