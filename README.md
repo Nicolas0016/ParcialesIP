@@ -14,6 +14,10 @@
    - [Código solución](./ParcialC/Solucion.hs)
    - [Tests unitarios](./ParcialC/Test.hs)
 
-4. **[Parcial D - Sistema de registro de alumnos](./ParcialD/README.md)**
+4. **[Parcial D - Vamos Campeon (Arqueros)](./ParcialD/README.md)**
    - [Código solución](./ParcialD/Solucion.hs)
+   - [Tests unitarios](./ParcialD/Test.hs)
+
+4. **[Parcial E - Vamos Campeon (Goleadores)](./ParcialE/README.md)**
+   - [Código solución](./ParcialE/Solucion.hs)
    - [Tests unitarios](./ParcialD/Test.hs)
