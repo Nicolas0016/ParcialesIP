@@ -18,6 +18,11 @@
    - [Código solución](./ParcialD/Solucion.hs)
    - [Tests unitarios](./ParcialD/Test.hs)
 
-4. **[Parcial E - Vamos Campeon (Goleadores)](./ParcialE/README.md)**
+5. **[Parcial E - Vamos Campeon (Goleadores)](./ParcialE/README.md)**
    - [Código solución](./ParcialE/Solucion.hs)
-   - [Tests unitarios](./ParcialD/Test.hs)
+   - [Tests unitarios](./ParcialE/Test.hs)
+
+6. **[Parcial F - Problemas Varios](./ParcialF/README.md)**
+   - [Código solución](./ParcialF/Solucion.hs)
+   - [Tests unitarios](./ParcialF/Test.hs)
+
