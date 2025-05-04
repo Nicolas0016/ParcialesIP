@@ -1,3 +1,4 @@
+module Solucion where
 -- Ejercicio 1 
 division :: Integer -> Integer -> Float
 division a b = fromIntegral a / fromIntegral b 
