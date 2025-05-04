@@ -30,7 +30,11 @@
    - [Código solución](./ParcialG/Solucion.hs)
    - [Tests unitarios](./ParcialG/Test.hs)
 
-## Índice de Integradoras
-1. **[Integradora A - Caminos Validos](./IntegradoraA/README.md)**
+## Índice de Integradora
+1. **[Integradora A - Gestión de Stock](./ParcialG/README.md)**
+   - [Código solución](./ParcialG/Solucion.hs)
+   - [Tests unitarios](./ParcialG/Test.hs)
+
+2. **[Integradora B - Caminos Validos](./IntegradoraA/README.md)**
    - [Código solución](./IntegradoraA/Solucion.hs)
    - [Tests unitarios](./IntegradoraA/Test.hs)
