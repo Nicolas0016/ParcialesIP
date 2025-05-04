@@ -1,4 +1,4 @@
-# 📚 Repositorio de Parciales - Programación Haskell
+# 📚 Repositorio de Parciales - Introducción A La Programación
 
 ## 📂 Índice de Parciales
 
