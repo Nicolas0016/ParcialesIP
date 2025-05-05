@@ -30,6 +30,16 @@
    - [Código solución](./ParcialG/Solucion.hs)
    - [Tests unitarios](./ParcialG/Test.hs)
 
+8. **[Parcial H - Codificación de Caracteres](./ParcialH/README.md)**
+   - [Código solución](./ParcialH/SolucionT2.hs)
+   - [Tests unitarios](./ParcialH/Test.hs)
+
+
+9. **[Parcial I - Codificación de Caracteres](./ParcialI/README.md)**
+   - [Código solución](./ParcialI/SolucionT1.hs)
+   - [Tests unitarios](./ParcialI/Tests.hs)
+
+
 ## Índice de Integradora
 1. **[Integradora A - Gestión de Stock](./ParcialG/README.md)**
    - [Código solución](./ParcialG/Solucion.hs)
