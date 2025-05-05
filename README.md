@@ -37,7 +37,7 @@
 
 9. **[Parcial I - Codificación de Caracteres](./ParcialI/README.md)**
    - [Código solución](./ParcialI/SolucionT1.hs)
-   - [Tests unitarios](./ParcialI/Tests.hs)
+   - [Tests unitarios](./ParcialI/Test.hs)
 
 
 ## Índice de Integradora
