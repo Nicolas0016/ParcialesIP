@@ -16,15 +16,15 @@ cuantasVecesHayQueCodificar char frase mapeo
     | otherwise = 0 
 
 laQueMasHayQueCodificar :: [Char] -> [(Char, Char)] -> Char
-laQueMasHayQueCodificar _ [(x,_)] = x
-laQueMasHayQueCodificar word (x:y:rest)
-    | aparicionesPrimeraLetra > aparicionesSegundaLetra = laQueMasHayQueCodificar word (x:rest)
-    | otherwise = laQueMasHayQueCodificar word (y:rest)
+laQueMasHayQueCodificar _ [(c,_)] = c  
+laQueMasHayQueCodificar frase (x:y:rest)
+    | count1 >= count2 = laQueMasHayQueCodificar frase (x:rest)
+    | otherwise       = laQueMasHayQueCodificar frase (y:rest)
     where
-        (x1,_) = x
-        (y1,_) = y
-        aparicionesPrimeraLetra = cuantasVecesHayQueCodificar x1 word (x:rest) 
-        aparicionesSegundaLetra = cuantasVecesHayQueCodificar y1 word (y:rest)
+        (c1,_) = x
+        (c2,_) = y
+        count1 = cuantasVecesHayQueCodificar c1 frase (x:rest)
+        count2 = cuantasVecesHayQueCodificar c2 frase (y:rest)
 
 codificarLetra :: Char -> [(Char, Char)] -> Char
 codificarLetra c [] = c
