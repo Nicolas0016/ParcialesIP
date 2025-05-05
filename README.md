@@ -7,7 +7,7 @@
    - [Tests unitarios](./ParcialA/Test.hs)
 
 2. **[Parcial B - Gestión de relaciones sociales](./ParcialB/README.md)**
-   - [Código solución](./ParcialB/ParcialB.hs)
+   - [Código solución](./ParcialB/Solucion.hs)
    - [Tests unitarios](./ParcialB/Test.hs)
 
 3. **[Parcial C - Sistema de registro de alumnos](./ParcialC/README.md)**
