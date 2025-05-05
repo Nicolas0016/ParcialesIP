@@ -40,6 +40,7 @@ problema laQueMasHayQueCodificar (frase: seq⟨Char⟩, mapeo: seq⟨Char x Char
   requiere: {Existe al menos un c que pertenece a frase y hayQueCodificar(c, mapeo)=true}
   asegura: {res = c donde c es el caracter tal que cuantasVecesHayQueCodificar(c, frase, mapeo) es mayor a cualquier otro caracter perteneciente a frase}
   asegura: {Si existen más de un caracter c que cumple la condición anterior, devuelve el que aparece primero en frase }
+}
 ```
 # Ejercicio 4 (3 puntos)
 
@@ -49,18 +50,14 @@ problema codificarFrase (frase: seq⟨Char⟩, mapeo: seq⟨Char x Char⟩ ) : s
   requiere: {No hay elementos repetidos entre las segundas componentes de mapeo}
   requiere: {|frase| > 0 }
   asegura: {|res| = | frase|}
-  asegura: { Para todo 0 <= i < |frase| si hayQueCodificar(frase[i], mapeo) = true entonces res[i]= (mapeo[j])1, para un j tal que 0 <= j < |mapeo| y mapeo[j])0=frase[i]}
+  asegura: { Para todo 0 <= i < |frase| si hayQueCodificar(frase[i], mapeo) = true entonces res[i]= (mapeo[j]1, para un j tal que 0 <= j < |mapeo| y mapeo[j])0=frase[i]}
   asegura: { Para todo 0 <= i < |frase| si hayQueCodificar(frase[i], mapeo) = false entonces res[i]= frase[i]}
 }
 ```
-Ejercicio 5 (1 punto)
+# Ejercicio 5 (1 punto) Conteste marcando la opción correcta. 
 
-Conteste marcando la opción correcta. Si un usuario no cumple con la precondición de la especificación de un programa y el programa no termina (se cuelga) :
-El usuario tiene derecho a quejarse porque el programador debería haber contemplado ese caso.
-El usuario no tiene derecho a quejarse, pero el programa es incorrecto porque no debería colgarse.
-El usuario no tiene derecho a quejarse y no importa que el programa se cuelgue para este caso.
+Si un usuario no cumple con la precondición de la especificación de un programa y el programa no termina (se cuelga) :
 
-Adjunta el archivo con tu solución:
-
-Solo se puede adjuntar 1 archivo de extensión .hs. En caso de haber desarrollado tests propios, no deben ser entregados.
-Seleccionar archivo a enviar:
+- [] El usuario tiene derecho a quejarse porque el programador debería haber contemplado ese caso.
+- [] El usuario no tiene derecho a quejarse, pero el programa es incorrecto porque no debería colgarse.
+- [x] El usuario no tiene derecho a quejarse y no importa que el programa se cuelgue para este caso.
