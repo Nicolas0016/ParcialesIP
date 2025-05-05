@@ -1,6 +1,5 @@
 import Test.HUnit
-import Solucion
-
+import SolucionT2
 -- Ejercicio 1: generarStock
 testHayQueCodificar = test [
     "Lista vacía" ~: 

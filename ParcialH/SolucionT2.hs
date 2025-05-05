@@ -1,18 +1,16 @@
-module Solucion where
-type Map = [(Char, Char)] 
-type Frase = String
+module SolucionT2 where
 hayQueCodificar::Char-> [(Char,Char)] ->Bool
 hayQueCodificar _ [] = False
 hayQueCodificar caracter ((x,_):mapa) = caracter == x || hayQueCodificar  caracter mapa
 
 
-apariciones :: (Eq t) => t-> [t]->Integer
+apariciones :: (Eq t) => t -> [t] -> Int
 apariciones _ [] = 0
 apariciones t (x:xs)
     | t ==x = 1 + apariciones t xs
     | otherwise = apariciones t xs 
 
-cuantasVecesHayQueCodificar :: Char -> [Char] -> [(Char, Char)] -> Integer
+cuantasVecesHayQueCodificar :: Char -> [Char] -> [(Char, Char)] -> Int
 cuantasVecesHayQueCodificar char frase mapeo 
     | hayQueCodificar char mapeo = apariciones char frase 
     | otherwise = 0 
