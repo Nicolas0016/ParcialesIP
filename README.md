@@ -40,6 +40,11 @@
    - [Tests unitarios](./ParcialI/Test.hs)
 
 
+10. **[Parcial J - Librería](./ParcialJ/README.md)**
+   - [Código solución](./ParcialJ/Solucion.hs)
+   - [Tests unitarios](./ParcialJ/Test.hs)
+
+
 ## Índice de Integradora
 1. **[Integradora A - Gestión de Stock](./ParcialG/README.md)**
    - [Código solución](./ParcialG/Solucion.hs)
