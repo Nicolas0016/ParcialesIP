@@ -6,7 +6,8 @@ boletas, acomodarlas por partido y volver a distribuirlas en sus lugares.
 
 Implementar una función acomodar que tome una lista con strings que representan el nombre de lista (UP o LLA) y devuelva una lista con la misma cantidad de elementos de cada uno de los posibles strings pero agrupadas, las de Lista UP al principio y las de lista LLA al final.
 
-> [!IMPORTANT]  No está permitido utilizar las funciones sort() y reverse().
+> [!CAUTION]
+> No está permitido utilizar las funciones sort() y reverse().
 ```
 problema acomodar (in s: seq<String>) : seq<String> {
     requiere: { Todos los elementos de s son o bien "LLA" o bien "UP"}
